@@ -1,0 +1,6 @@
+- menambahkan member jika baru mendaftar
+- beritahu jika member sudah habis masa berlakunya
+- edit masa berlakunua jika member sudah bayar
+- beri tanda hitam jika memeber sudah tidak aktif selama 3 bulan   dan notif lewat WA bot
+- beri tanda kuning jika member masa berlakunya 1 hari sebelum berakhir dan notif lewat WA bot
+- beri tanda merah jika member masa berlakunya sudah habis dan notif lewat WA bot
