@@ -1,0 +1,54 @@
+/* table */
+
+.daftar-paket {
+    justify-content: center;
+    align-items: center;
+}
+
+.daftar-paket table {
+    border: none;
+    outline: none;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.daftar-paket tr th:first-child {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.daftar-paket tr th {
+    padding: 10px 30px 10px 0;
+    background-color: darkblue;
+    color: white;
+}
+
+.daftar-paket tr th:last-child {
+    text-align: center;
+}
+
+.daftar-paket tr td:not(:first-child) {
+    padding: 10px 30px 10px 0;
+}
+
+.daftar-paket tr:nth-child(even) {
+    background-color: pink;
+}
+
+.daftar-paket tr th:not(last-child) {
+    text-align: left;
+}
+
+.daftar-paket tr td:first-child {
+    text-align: left;
+}
+
+.daftar-paket tr td:last-child {
+    text-align: center;
+}
+
+.daftar-paket tr td:not(first-child) {
+    padding: 5px 20px;
+}

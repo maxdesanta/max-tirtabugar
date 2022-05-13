@@ -1,0 +1,28 @@
+User Journey Member GYM :
+1. Admin masuk ke aplikasi
+2. Admin akan mengisi data untuk login
+3. JIKA admin belum punya akun silahkan isi data di register JIKA TIDAK silahkan Login
+4. JIKA admin mengisi data dengan benar silahkan masuk ke dashboard Jika tidak isi data lagi dengan benar
+5. tampilan dashboard sudah ditampilkan 
+6. Admin akan melihat data-data member yang sudah jatuh tempo
+7. JIKA masa berlaku member 1 hari sebelum habis maka beritahu admin kalau member ini masa berlakunya sudah habis JIKA member sudah jatuh tempo maka beritahu admin kalau member ini masa berlakunya sudah habis JIKA member sudah jatuh tempo selama 3 bulan maka member sudah tidak aktif dan dikenakan registrasi ulang 
+8. JIKA ada member baru maka Admin akan segera mencantumkan data-nya
+9. JIKA member sudah bayar maka admin akan mengubah masa berlakunya 
+
+User story
+* Register		:
+- username		: max ---> halaman profil
+- password		: ---> upercase, uniqcase, lowercase, number
+- email		: ---> gmail
+
+* Login		: ---> email, password
+* lihat member	: ---> tambah member, update member, hapus member
+
+User case
+- Register
+- Login
+- Dashboard
+- Profille
+- Tambah member
+- Edit Member
+- Hapus member

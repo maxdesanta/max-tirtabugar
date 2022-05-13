@@ -1,0 +1,137 @@
+/* css reset */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global style */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main {
+    margin-top: 78px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+}
+
+/* header */
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 0;
+}
+
+header .wrapper {
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* main */
+
+/* fitur */
+.fitur{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search, select {
+    padding: 10px 20px;
+    background-color: pink;
+}
+
+.search input {
+    margin-left: 5px;
+    background-color: pink;
+    border:none;
+    outline: none;
+}
+
+select {
+    border:none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* table */
+
+.daftar-member {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.daftar-member table {
+    border: none;
+    outline: none;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.daftar-member tr th:not(:first-child) {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.daftar-member tr th:first-child {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.daftar-member tr:nth-child(even) {
+    background-color: pink;
+}
+
+.daftar-member tr td:nth-child(2), .daftar-member tr td:nth-child(3), .daftar-member tr td:nth-child(4), .daftar-member tr td:nth-child(5), .daftar-member tr td:nth-child(6), .daftar-member tr td:nth-child(7) {
+    padding: 5px 20px;
+}
+
+.daftar-member tr td:last-child, .daftar-member tr th:last-child{
+    padding: 10px;
+}
+
+.daftar-member tr td:first-child {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.daftar-member tr td:last-child box-icon:last-child {
+    margin-left: 5px;
+}

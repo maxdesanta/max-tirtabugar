@@ -1,0 +1,26 @@
+nama database	: tirta_bugar ( CREATE DATABASE tirta_bugar )
+nama tabel1		: member(id member int(250), nama varchar(255), nomor_telepon int(250), paket varchar(255), durasi varchar(255), kode_member varchar(250), masa berlaku date())
+nama tabel2		: paket_member(id paket int(250), nama paket varchar(255), durasi varchar(255), harga int(250))
+nama tabel3		: admin(id admin int(250), username varchar(255), email varchar(255), password varchar(255))
+
+query tabel :
+CREATE TABLE member(
+	=> id member int(250),
+	=> nama varchar(255),
+	=> nomor telepon int(250),
+	=> paket varchar(255),
+	=> kode member varchar(255),
+	=> durasi varchar(250),
+	=> masa berlaku date());
+
+CREATE TABLE paket member(
+	=> id paket int(250),
+	=> nama paket varchar(255),
+	=> durasi varchar(255),
+	=> harga int(250));
+
+CREATE TABLE admin(
+	=> id admin int(250),
+	=> nama admin varchar(255),
+	=> email varchar(255),
+	=> password varchar(255));

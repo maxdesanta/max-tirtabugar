@@ -28,11 +28,26 @@ front-end :
 - React Js
 
 tabel database :
-* member :
+* member(CRUD) :
 - id INT NOT NULL AUTO_INCREMENT Primary Key
 - nama varchar(255) NOT NULL
-- jenis_paket varchar(255) NOT NULL
+- kode_member varchar(255) NOT NULL
 - no_telp int(250) NULL
 - masa_berlaku date
 - created_at TIMESTAMP
 - updated_at TIMESTAMP
+
+* paket member :
+- id INT NOT NULL AUTO_INCREMENT Primary Key
+- jenis_paket varchar (255) NOT NULL
+- Durasi varchar (255) NOT NULL
+- harga int (250) NOT NULL
+
+* member + paket member :
+- member.id
+- member.nama
+- member.kode_member
+- paket_member.jenis_paket
+- paket_member.durasi
+- no_telp int(250) NULL
+- masa_berlaku date

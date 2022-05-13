@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 32px;
+}
+
+main .wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: block;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 300px; 
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.login input {
+    background-color: darkblue;
+    color: white;
+}
+
+label {
+    font-size: 18px
+}
